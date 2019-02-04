@@ -17,18 +17,23 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  color: #2292a5;
+  font-size: 1.3rem;
+}
+
 /* header/banner stuff */
 
 header {
   background-color: #2292a5;
-  display: block;
 }
 
 .headersec {
-  width: 600px;
+  display: flex;
   position: relative;
-  margin: 0px;
-  padding: 40px 150px;
+  flex-flow: column;
+  margin: 0;
+  padding: 2rem 9rem;
 }
 
 h1 {
@@ -44,6 +49,92 @@ h1 {
 }
 
 /* navigation styles --make nav bar expand on whole page*/
+
+.nav {
+  text-decoration: none;
+  background-color: #e0dede;
+
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  margin: 0;
+  padding: 2rem 9rem;
+}
+
+li {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3a3a3a;
+  padding: 1rem;
+}
+
+
+/* main content */
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: space-around;
+  margin: 4rem 0rem;
+}
+
+article {
+  padding-left: 10rem;
+  padding-right: 8rem;
+}
+
+aside {
+  padding-right: 25rem;
+}
+
+
+/* quote style */
+
+.quotesection {
+  padding: 2rem 0rem;
+  color: #57c2e5;
+  font-size: 1.3rem;
+  line-height: 0.5rem;
+}
+
+.jeremy {
+  font-style: italic;
+}
+
+/* footer style */
+
+footer {
+  background-color: #3a3a3a;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  color: #ededed;
+}
+
+.footersec {
+  padding: 10rem 20rem 0rem 20rem;
+}
+
+.footerli {
+  color: #ededed;
+}
+
+
+
+
+
+
+
+/*
 
 nav {
   margin: 0px;
@@ -68,7 +159,6 @@ li {
   font-weight: bold;
 }
 
-/* main content */
 
 article {
   display: flex;
@@ -81,7 +171,6 @@ article {
   font-size: 1.2rem;
 }
 
-/* quote */
 
 .quote {
   color: #57c2e5;
@@ -98,7 +187,6 @@ article {
   padding: 0;
 }
 
-/* sidebar */
 
 aside {
   display: flex;
@@ -115,7 +203,6 @@ aside {
 
 
 
-/* footer styles */
 
 footer {
   display: flex;
@@ -125,4 +212,7 @@ footer {
   width: 100%;
   height: 100px;
   background:#6cf;
+  clear: right;
 }
+
+*/
