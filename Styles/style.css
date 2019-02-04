@@ -1,6 +1,11 @@
+/* misc. details */
+
 body {
-  color: #3c3d3d;
+  color: #585959;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
 }
 
 a {
@@ -8,5 +13,93 @@ a {
 }
 
 h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+/* header/banner stuff */
+
+header {
+  background-color: #2292a5;
+  display: block;
+}
+
+.headersec {
+  width: 600px;
+  position: relative;
+  margin: 0px;
+  padding: 40px 150px;
+}
+
+h1 {
+  color: white;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+.hdrcaption {
+  color: white;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+/* navigation styles --make nav bar expand on whole page*/
+
+nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  float: left;
+  background-color: #e0dede;
+  margin: 0px;
+  padding-left: 150px;
+  display: flex;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* main content */
+
+article {
+  width: 800px;
+  position: relative;
+  margin: 0px;
+  padding: 100px 150px;
+  font-size: 1.2rem;
+}
+
+/* quote */
+
+.quote {
+  color: #57c2e5;
   font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.jeremy {
+  color: #57c2e5;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+/* sidebar */
+
+aside {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  float: right;
 }
