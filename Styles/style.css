@@ -72,6 +72,11 @@ li {
   padding: 1rem;
 }
 
+.navlinks {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
 
 /* main content */
 
@@ -115,104 +120,33 @@ footer {
   display: flex;
   position: relative;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 0;
+  padding-left: 10rem;
+  padding-bottom: 4rem;
   color: #ededed;
 }
 
 .footersec {
-  padding: 10rem 20rem 0rem 20rem;
+  padding-top: 6rem;
+}
+
+.footerul {
+  padding-left: 14rem;
 }
 
 .footerli {
   color: #ededed;
-}
-
-
-
-
-
-
-
-/*
-
-nav {
-  margin: 0px;
-  padding: 0px;
-}
-
-ul {
-  list-style: none;
-  list-style-type: none;
-  float: left;
-  background-color: #e0dede;
-  margin: 0px;
-  padding-left: 150px;
-  display: flex;
-}
-
-li {
-  text-decoration: none;
-  display: inline-block;
-  padding: 30px 10px;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-
-article {
-  display: flex;
-  float: left;
-  position: relative;
-  flex-direction: column;
-  width: 40%;
-  margin: 0px;
-  padding: 0px 150px;
   font-size: 1.2rem;
 }
 
-
-.quote {
-  color: #57c2e5;
-  font-size: 2rem;
-  margin: 0;
-  padding: 0;
+.catlogo {
+  padding-left: 24rem;
 }
 
-.jeremy {
-  color: #57c2e5;
-  font-size: 2rem;
-  font-style: italic;
-  margin: 0;
-  padding: 0;
+.footertext {
+  text-align: center;
+  width: 40%;
+  padding-left: 16rem;
 }
-
-
-aside {
-  display: flex;
-  float: right;
-  position: absolute;
-  right: 350px;
-  flex-direction: column;
-  width: 20%;
-}
-
-.news {
-  padding-bottom: 30px;
-}
-
-
-
-
-footer {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  background:#6cf;
-  clear: right;
-}
-
-*/
